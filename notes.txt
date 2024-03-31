@@ -1,0 +1,19 @@
+Requisitos técnicos
+- Typescript
+- Banco: MongoDB
+- ORM: mongoose
+- transpile: ts-node
+- nodemon para live reload
+- Framework - express
+- Testes: Jest
+
+usuário:
+ID, nome de usuário, peso, senha, e-mail.
+
+CRUD de usuário
+
+[X] - Criar um usuário
+[X] - Listar todos os usuários
+[X] - Listar um usuário
+[X] - Atualizar um usuário
+[X] - Remover um usuário
