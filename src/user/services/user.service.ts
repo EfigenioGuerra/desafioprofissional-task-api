@@ -32,9 +32,9 @@ class UserService{
     async delete(id: string){
         try {
             await userModel.findByIdAndDelete(id)
-            return "Livro removido"
+            return "Usuário removido"
         } catch (error) {
-            throw new Error(`Erro ao remover livro: ${error}`)
+            throw new Error(`Erro ao remover Usuário: ${error}`)
         }
     }
 }

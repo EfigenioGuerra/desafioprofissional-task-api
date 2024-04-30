@@ -13,7 +13,7 @@ class UserController {
         const findedUsers = await userService.findAll()
         return res.json(findedUsers)
     }
- 
+
     async findById(req: Request, res: Response){
         const findedUsers = await userService.findById(req.params.id)
         return res.json(findedUsers)
